@@ -1,4 +1,21 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="b8%e,pdRN,{nozdEIjz_" x="0" y="0"></block><block type="keyonevent" id=",C`Xi#+-y[WrT@mL$6@*" x="190" y="130"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="gamesetbackgroundimage" id="(n6@hB;@=`ajA:Bk0D.k"><value name="img"><shadow type="background_image_picker" id="XLQdMmWBt)Da#T!p?,A)"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="+GPk=K_~NEh9?ed}7JFw">mySprite</variable><variable type="KIND_SpriteKind" id="5m_9p`3~(?U:A@:)wV5@">Player</variable><variable type="KIND_SpriteKind" id="Q_?c3=n)`E6X8~@Hl*H~">Projectile</variable><variable type="KIND_SpriteKind" id="h5@qjDgeH8iW^{*M[R9:">Food</variable><variable type="KIND_SpriteKind" id="jEW=*@je_}#YB8ImzpUA">Enemy</variable></variables><block type="pxt-on-start" id="b8%e,pdRN,{nozdEIjz_" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="BCVNzGaS[pHx?u_4PdmZ"><field name="VAR" id="+GPk=K_~NEh9?ed}7JFw">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="IBN`%[[[AN?QI[l2g7[_"><value name="img"><shadow type="screen_image_picker" id="Y@!2ve5{){_^44t!_[(:"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . 2 2 2 2 2 2 . . . . . . 
+. . . 2 . . . . . 2 2 . . . . . 
+. . 2 . . . . . . . 2 2 . . . . 
+. . 2 . . . . . . . . 2 . . . . 
+. . 2 . . . . . . . . 2 . . . . 
+. . 2 . . . . . . . . 2 . . . . 
+. . 2 . . . . . . . 2 . . . . . 
+. . . 2 . . . . . 2 2 . . . . . 
+. . . 2 . . 2 2 2 2 . . . . . . 
+. . . . 2 2 2 . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Y@!2ve5{){_^44t!_[(:"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="1QGIub6lcE_=SZyTGDpw"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundimage" id="(n6@hB;@=`ajA:Bk0D.k"><value name="img"><shadow type="background_image_picker" id="XLQdMmWBt)Da#T!p?,A)"><field name="img">img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -119,4 +136,4 @@
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`</field><data>{"commentRefs":[],"fieldData":{"img":"XLQdMmWBt)Da#T!p?,A)"}}</data></shadow></value></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"XLQdMmWBt)Da#T!p?,A)"}}</data></shadow></value><next><block type="game_control_sprite" id="KRCjgRE^QirJGFvN:x+I"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="F=[i?0+:?0s~:^FvrTuX"><field name="VAR" id="+GPk=K_~NEh9?ed}7JFw">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="VSD5^|78=3NR%7^(fy0#"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="L^DBtwX*MmhCh`^E*{$4"><field name="speed">100</field></shadow></value></block></next></block></next></block></statement></block><block type="keyonevent" id=",C`Xi#+-y[WrT@mL$6@*" x="150" y="250"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
