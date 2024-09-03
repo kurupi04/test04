@@ -1,5 +1,5 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-	
+    music.play(music.stringPlayable("C - - - D C - - ", 120), music.PlaybackMode.InBackground)
 })
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
